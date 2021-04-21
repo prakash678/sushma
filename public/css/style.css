@@ -1,0 +1,294 @@
+body{
+	margin: 0px ;
+	padding: 0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+.nav1{
+	background-color: black;
+	width: 100%;
+	display: inline-flex;
+}
+img[alt="home"]{
+	margin-top: 5px;
+}
+.nav1 ul{
+	list-style-type: none;
+}
+.nav1 ul li{
+	font-size: 11px;
+	color:white;
+	padding-right: 20px; 
+	display: inline-flex;
+}
+.base{
+	width: 100%;
+	margin-top: -10px !important;
+	height: 350px;
+	background-color: skyblue;
+	background-image:linear-gradient(to right, rgba(19, 20, 19,0.5),rgba(19, 20, 19,0.5),rgba(19, 20, 19,0.5)), url('../image/white.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.float{
+	float: right;
+	margin-top: 5px;
+}
+img[src="image/icon1.png"]{
+	float: left;
+	margin:10px 25px;
+}
+.base ul{
+	list-style-type: none;
+}
+img[alt="baby"]{
+	float: right;
+	margin-right: 20px;
+}
+.base p{
+	color: white;
+	float: right;
+	font-size: 12px;
+	font-family: arial;
+	position:absolute;
+	right:5px;
+	top: 70px;
+}
+img[alt="square"]{
+	position: absolute;
+	top: 60px;
+	left: 370px;
+}
+.base li{
+	color:white;
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: arial;
+	float:left;
+}
+.base select{
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 12px 35px;
+	color: white;
+	background-color: darkviolet;
+}
+.base input{
+	padding: 10px;
+	width: 500px;
+	margin-left: -5px;
+}
+.side{
+	height: 60px;
+	width: 160px;
+	float: left;
+	background-color: lightgray;
+	padding: 10px 20px;
+}
+.side p{
+	font-size: 12px;
+}
+.mid{
+	display: flex;
+	height: 60px;
+}
+.mid img[alt="arrow"]{
+	float:left;
+	width:50px;
+	height:60px;
+}
+.side1{
+	background-color: lightgray;
+	float:left;
+	font-size: 13px;
+	height: 60px;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: #471D9D;
+}
+.side1 span{
+	color:gray;
+}
+.side1 b{
+	 float:right;
+	 color: black;
+}
+.premium{
+	height: 300px;
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+}
+.empty{
+	height: 300px;
+	width:20%;
+	float: left;
+	border-bottom: 5px solid gray;
+	border-right: 5px solid gray;
+}
+.talent{
+	background-color: lightgray;
+	width: 80%;
+	display: flex;
+	height:300px;
+	margin-left: 5px;
+	border-bottom: 2px solid gray;
+}
+.img1{
+	height: 200px
+	width:180px;
+	float: left;
+}
+.img1 p{
+	font-size: 12px;
+}
+img[alt="sushma"]{
+	height: 200px;
+	width: 180px;
+	margin-left: 10px;
+	object-fit: cover;
+}
+.material-icons{
+	background-color: gray;
+	color: white;
+	float: left;
+	padding: 150px 0px;
+	font-size: 20px;
+	height: 300px;
+	width: 30px;
+	font-size: 30px;
+}
+.img{
+	display: flex;
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	text-align: center;
+}
+h3, h4{
+	font-weight: bold;
+	text-align: center;
+}
+img[alt="sushma1"]{
+	height: 250px;
+	width: 220px;
+	margin-left: 10px;
+	object-fit: cover;
+}
+img[alt="sushma2"]{
+	height: 230px;
+	width: 200px;
+	margin-left: 10px;
+	object-fit: cover;
+}
+
+.glyphicon{
+	margin-left: 10px;
+	font-size: 60px;
+	margin-top: 80px;
+	margin-right: 10px;
+}
+hr{
+	height: 5px;
+	background-color: gray;
+}
+.association {
+	display: flex;
+}
+.scroll{
+	display: inline-flex;
+}
+.x{
+    height: 330px;
+    width: 100%;
+	display: flex;
+}
+.x1{
+	width: 50%;
+	margin-right: 2px;
+	display: inline-flex;
+	border-bottom: 3px solid gray;
+}
+.x2{
+	width: 50%;
+	display: inline-flex;
+	border-bottom: 3px solid gray;
+	border-left: 3px solid gray;
+}
+.x .glyphicon{
+	margin-left: 20px;
+	font-size: 40px;
+	margin-top: 150px;
+	margin-right: 10px;
+}
+.lastword{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	padding: 17px 0px;
+	background-color: #6e1f1f;
+}
+.customer{
+	display: flex;
+}
+.few{
+	display: inline-flex;
+}
+.few p{
+	margin-top: 150px;
+	font-size: 12px;
+	margin-left: 5px;
+	text-align: left; 
+}
+.list{
+	display: inline-flex;
+}
+.list ul{
+	list-style-type: none;
+}
+.list ul li{
+	display: inline-flex;
+	color: white;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+.climax{
+	width:100%;
+	background-color: #564d4d;
+	position: relative;
+	top:10px;
+}
+.logo ul{
+	position: relative;
+	bottom:37px;
+	right: 30px;
+
+}
+.logo ul li b{
+	color: white;
+	font-size: 25px;
+}
+.hr1{
+	height: 3px;
+	margin-top: -10px;
+	width: 50%;
+	border-style: none;
+	margin-left: -100px;
+	background-color: blue;
+}
+.hr2{
+	height: 3px;
+	float: right;
+	width: 42%;
+	margin-top: -24px;
+	background-color: blue;
+	border-style:none;
+}
+h2::first-letter, h3::first-letter, h4::first-letter {
+	font-family: Brush Script MT, cursive;
+	color: #471D9D;
+	font-size: xx-large;
+}
